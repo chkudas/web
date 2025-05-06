@@ -5,4 +5,4 @@
       shell: |
         echo "Hello World"
         sleep 1
-      loop: "{{ range(1, 51) | list }}"
+      loop: "{{ range(1, 30) | list }}"
