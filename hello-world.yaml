@@ -1,0 +1,8 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      shell: |
+        echo "Hello World"
+        sleep 1
+      loop: "{{ range(1, 51) | list }}"
